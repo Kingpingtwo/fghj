@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+.hed {
+  margin: 20px 0;
+}
+.log {
+  width: 85%;
+  margin: auto;
+}
+.img {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+.main {
+  background-image: url(download.png);
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.tit {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 210px;
+  margin-left: 290px;
+  margin-right: 290px;
+  color: white;
+  display: flex;
+  font-size: 110px;
+  border-bottom: 2px solid blue;
+  margin-bottom: 30px;
+}
+.av {
+  text-decoration: none;
+  border: 1px solid blue;
+  color: white;
+  padding: 12px 10px;
+  border-radius: 10px;
+  font-family: Montserrat;
+}
+.a {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 55px;
+  font-family: Montserrat;
+}
+.not {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.llll {
+  width: 520px;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.info {
+  background-color: white;
+  padding: 70px;
+  text-align: center;
+}
+
+.info-tit {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+}
+.info-text {
+  color: thistle;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+.items {
+  gap: 20px;
+}
+.wraper {
+  padding: 30px;
+}
+.items-container {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+.items-icon {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  margin: auto;
+}
+
+.item-title {
+  margin-bottom: 15px;
+  font-size: 22px;
+  columns: #333335;
+}
+.items-text {
+  font-size: 15px;
+  color: gray;
+}
